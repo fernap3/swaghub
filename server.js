@@ -22,6 +22,6 @@ server.get(/.*/, restify.plugins.serveStatic({
 	default: '/index.html'
 }));
 
-server.listen(8080, () => {
+server.listen(process.env.PORT || 8080, () => {
 	console.log('%s listening at %s', server.name, server.url);
 });
