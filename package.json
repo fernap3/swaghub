@@ -1,0 +1,24 @@
+{
+  "name": "swaghub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernap3/swaghub.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fernap3/swaghub/issues"
+  },
+  "homepage": "https://github.com/fernap3/swaghub#readme",
+  "dependencies": {
+    "dotenv": "^5.0.0",
+    "restify": "^6.3.4",
+    "serve-static-restify": "^2.0.0"
+  }
+}
